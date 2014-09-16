@@ -71,9 +71,9 @@ WSGI_APPLICATION = 'firstblog1.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'firstblog1',
-        'USER': 'root',     #not used with sqlite3
-        'PASSWORD': 'adityagupta',  #not used with sqlite3
+        'NAME': 'firstblog1',   #Name of your Database
+        'USER': 'root',     #Not used with sqlite3
+        'PASSWORD': '12345',  #Password for your MySQL,not used with sqlite3
         'HOST': '',      #set to empty string for localhost.Not used with sqlite3
         'PORT': '',      #set to empty string for default.Not used with sqlite3
     }
